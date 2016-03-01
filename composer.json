@@ -1,0 +1,27 @@
+{
+    "name": "ulrichsg/phconf",
+    "type": "library",
+    "description": "Hierarchical configuration inspired by nconf",
+    "homepage": "https://github.com/ulrichsg/phconf",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ulrich Schmidt-Goertz",
+            "email": "ulrich@schmidt-goertz.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "league/flysystem": "1.0.*",
+        "league/flysystem-memory": "1.0.*",
+        "symfony/yaml": "3.0.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ulrichsg\\": "src"
+        }
+    }
+}
